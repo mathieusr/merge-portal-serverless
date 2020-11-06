@@ -1,0 +1,18 @@
+{
+    "leftRepo": "https://github.com/cip-core-mirrors/cip-core-portal",
+    "leftRepoName": "cip-core-portal",
+    "rightRepo": "https://github.com/mathieusr/cip-portal-internal",
+    "rightRepoName": "cip-core-internal",
+    "finalRepo": "https://{0}@github.com/mathieusr/cip-portal-merge",
+    "finalRepoName": "cip-portal-merge",
+    "folderToMerge": [
+        "content"
+    ],
+    "configToMerge": [
+        "menus.en.toml",
+        "menus.fr.toml"
+    ],
+    "configFolderToSearch": [
+        "_default"
+    ]
+}
